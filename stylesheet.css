@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("images/bookpic.jpg");
+    background-position: center;
+}
+.wrapper{
+    margin: 0px auto;
+    height: 100%;
+}
+main{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:darkorange;
+}
+.hn{
+    background-color: rgba(91, 139, 36, 0.726);
+    color: rgb(255, 255, 255);
+    font-family: Tahoma;
+    padding: 5px 3px 3px 3px;
+}
+.hn h1:hover{
+    color: lightgrey;
+}
+.hn img{
+    float: right;
+    display: inline;
+    width: 20px;
+    margin: center;
+    margin-top: -40px;
+    margin-left: 150px;
+}
+.hn input{
+    margin: right;
+    float:right;
+    margin-top: -35px;
+    margin-right: 20;
+    width: 250px;
+    height: 30px;
+    border: darkgray 1px solid;
+    border-radius: 20px;
+}
+.nav_left{
+    position:relative;
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    display: block;
+    font-family: Tahoma;
+    background-color: rgba(34, 29, 66, 0.582);
+}
+.nav_right{
+    position: relative;
+    margin-top: -50px;
+    float: right;
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    display: block;
+    font-family: Tahoma;
+    background-color: rgba(34, 29, 66, 0.582);
+}
+.nav_left a{
+    color: White;
+}
+.nav_left a:hover{
+    background-color: dimgray;
+    color: fuchsia;
+    box-shadow: rgb(9, 190, 160) 7px 7px 7px;
+}
+.nav_right img{
+    margin-top: 3px;
+    float: left;
+    padding: 1px;
+    margin-right: 5px;
+    border: 1px solid darkgray;
+    border-radius: 50%;
+    width: 40px;
+}
+.nav_right img:hover{
+    width: 60px;
+    box-shadow: lightcoral 7px 7px 7px;
+}
+.nav_right input{
+    
+    background-color: rgba(1, 196, 98, 0.842);
+    float: right;
+    margin-right: 40px;
+    margin-top: 9px;
+    border: rgb(221, 219, 219) 3px solid;
+    height: 30px;
+    width: 260px;
+    border-radius: 15px;
+}
+.nav_right input:hover{
+    box-shadow: cornsilk 5px 5px 5px;
+    background-color: cyan;
+}
+ul{
+    color: seashell;
+    padding: 2px;
+}
+li{
+    border-right: solid 1px darkorange;
+    padding: 5px;
+    color: seashell;
+    margin-top: 10px;
+    float: left;
+    list-style-type: none;
+}
+.box1{
+    margin-left: 30px;
+    width: 70%;
+    height: 300px;
+}
+
+.box p{
+    text-align: center;
+    font-size: 22px;
+    font-family:cursive;
+    margin-top: 30px;
+}
+.box p:hover{
+    box-shadow: darkorange 7px 7px 7px ;
+}
+.categories{
+    padding: 20px;
+}
+.categories .box1{
+    float: left;
+    font-family: arial;
+    border-radius: 5px;
+    height: 260px;
+    background-color:rgba(245, 239, 239, 0.671);
+    width: 200px ;
+    border: darkgray solid 1px;
+
+}
+.categories .box1 h3{
+    text-align: center;
+    margin-top: 0px;
+}
+.categories .box1 img{
+    width: 200px;
+}
+.categories .box1 button{
+    margin: right;
+}
+.categories .box2{
+    font-family: arial;
+    float: left;
+    border-radius: 5px;
+    height: 200px;
+    background-color:rgba(245, 239, 239, 0.671);
+    width: 200px ;
+    border: darkgray solid 1px;
+    margin-left: 30px;
+    height: 300px;
+}
+.categories .box2 img{
+    width: 200px;
+}
+.footer{
+    border: 1px solid darkblue;
+    background-color: darkcyan;
+    width: 100%;
+    height: 80px;
+    margin-top: 400px ;
+}
+.footer h1{
+    padding-left: 20px;
+    font-family: Impact;
+}
+.footer address{
+    padding-left: 20px;
+}
+.footer a{
+    padding-left: 190px;
+    margin-top: 20px;
+}
+
